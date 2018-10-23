@@ -2,9 +2,9 @@ $ql-font-path: "assets/css/vendor/quemalabs-font/fonts" !default;
 
 @font-face {
   font-family: 'quemalabs-font';
-  src: url('#{$ql-font-path}/quemalabs-font.ttf?90x3d7') format('truetype'),
-  url('#{$ql-font-path}/quemalabs-font.woff?90x3d7') format('woff'),
-  url('#{$ql-font-path}/quemalabs-font.svg?90x3d7#quemalabs-font') format('svg');
+  src: url('#{$ql-font-path}/quemalabs-font.ttf?clgb5') format('truetype'),
+  url('#{$ql-font-path}/quemalabs-font.woff?clgb5') format('woff'),
+  url('#{$ql-font-path}/quemalabs-font.svg?clgb5#quemalabs-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -29,12 +29,40 @@ $ql-font-path: "assets/css/vendor/quemalabs-font/fonts" !default;
   content: "\e604";
 }
 
+.ql-icon-feather2:before {
+  content: "\e615";
+}
+
 .ql-icon-pen2:before {
   content: "\e617";
 }
 
 .ql-icon-paint-roller:before {
   content: "\e620";
+}
+
+.ql-icon-star-half:before {
+  content: "\e68e";
+}
+
+.ql-icon-at-sign:before {
+  content: "\e695";
+}
+
+.ql-icon-envelope:before {
+  content: "\e696";
+}
+
+.ql-icon-eye:before {
+  content: "\e6a5";
+}
+
+.ql-icon-folder:before {
+  content: "\e6ba";
+}
+
+.ql-icon-clipboard-text:before {
+  content: "\e6cb";
 }
 
 .ql-icon-store:before {
@@ -67,6 +95,22 @@ $ql-font-path: "assets/css/vendor/quemalabs-font/fonts" !default;
 
 .ql-icon-briefcase:before {
   content: "\e83a";
+}
+
+.ql-icon-volume-high:before {
+  content: "\e8b0";
+}
+
+.ql-icon-volume-medium:before {
+  content: "\e8b1";
+}
+
+.ql-icon-volume-low:before {
+  content: "\e8b2";
+}
+
+.ql-icon-volume:before {
+  content: "\e8b3";
 }
 
 .ql-icon-enter-up2:before {
