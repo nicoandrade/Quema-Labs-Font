@@ -1,186 +1,178 @@
 $ql-font-path: "assets/css/vendor/quemalabs-font/fonts" !default;
 
 @font-face {
-  font-family: 'quemalabs-font';
-  src: url('#{$ql-font-path}/quemalabs-font.ttf?clgb5') format('truetype'),
-  url('#{$ql-font-path}/quemalabs-font.woff?clgb5') format('woff'),
-  url('#{$ql-font-path}/quemalabs-font.svg?clgb5#quemalabs-font') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: "quemalabs-font";
+    src: url("#{$ql-font-path}/quemalabs-font.ttf?brsumf") format("truetype"),
+        url("#{$ql-font-path}/quemalabs-font.woff?brsumf") format("woff"),
+        url("#{$ql-font-path}/quemalabs-font.svg?brsumf#quemalabs-font")
+            format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
 [class^="ql-icon-"],
 [class*=" ql-icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'quemalabs-font' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "quemalabs-font" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+.ql-icon-settings:before {
+    content: "\e901";
+}
+.ql-icon-user_male_circle:before {
+    content: "\e902";
+}
+.ql-icon-combo_chart:before {
+    content: "\e903";
+}
+.ql-icon-home:before {
+    content: "\e904";
+}
+.ql-icon-edit_property:before {
+    content: "\e905";
+}
+.ql-icon-beer_keg:before {
+    content: "\e906";
+}
+.ql-icon-truck:before {
+    content: "\e907";
+}
+.ql-icon-move_by_trolley:before {
+    content: "\e908";
+}
+.ql-icon-beer_glass:before {
+    content: "\e909";
+}
+.ql-icon-small_business:before {
+    content: "\e90a";
+}
 .ql-icon-home5:before {
-  content: "\e604";
+    content: "\e604";
 }
-
 .ql-icon-feather2:before {
-  content: "\e615";
+    content: "\e615";
 }
-
 .ql-icon-pen2:before {
-  content: "\e617";
+    content: "\e617";
 }
-
 .ql-icon-paint-roller:before {
-  content: "\e620";
+    content: "\e620";
 }
-
 .ql-icon-star-half:before {
-  content: "\e68e";
+    content: "\e68e";
 }
-
 .ql-icon-at-sign:before {
-  content: "\e695";
+    content: "\e695";
 }
-
 .ql-icon-envelope:before {
-  content: "\e696";
+    content: "\e696";
 }
-
 .ql-icon-eye:before {
-  content: "\e6a5";
+    content: "\e6a5";
 }
-
 .ql-icon-folder:before {
-  content: "\e6ba";
+    content: "\e6ba";
 }
-
 .ql-icon-clipboard-text:before {
-  content: "\e6cb";
+    content: "\e6cb";
 }
-
 .ql-icon-store:before {
-  content: "\e744";
+    content: "\e744";
 }
-
 .ql-icon-bag:before {
-  content: "\e74b";
+    content: "\e74b";
 }
-
 .ql-icon-bag2:before {
-  content: "\e74c";
+    content: "\e74c";
 }
-
 .ql-icon-cart:before {
-  content: "\e74d";
+    content: "\e74d";
 }
-
 .ql-icon-cart-empty:before {
-  content: "\e74e";
+    content: "\e74e";
 }
-
 .ql-icon-cart-full:before {
-  content: "\e74f";
+    content: "\e74f";
 }
-
 .ql-icon-map2:before {
-  content: "\e782";
+    content: "\e782";
 }
-
 .ql-icon-briefcase:before {
-  content: "\e83a";
+    content: "\e83a";
 }
-
 .ql-icon-volume-high:before {
-  content: "\e8b0";
+    content: "\e8b0";
 }
-
 .ql-icon-volume-medium:before {
-  content: "\e8b1";
+    content: "\e8b1";
 }
-
 .ql-icon-volume-low:before {
-  content: "\e8b2";
+    content: "\e8b2";
 }
-
 .ql-icon-volume:before {
-  content: "\e8b3";
+    content: "\e8b3";
 }
-
 .ql-icon-enter-up2:before {
-  content: "\e8ff";
+    content: "\e8ff";
 }
-
 .ql-icon-enter-down2:before {
-  content: "\e900";
+    content: "\e900";
 }
-
 .ql-icon-magnifier:before {
-  content: "\e922";
+    content: "\e922";
 }
-
 .ql-icon-exclamation:before {
-  content: "\e932";
+    content: "\e932";
 }
-
 .ql-icon-question:before {
-  content: "\e933";
+    content: "\e933";
 }
-
 .ql-icon-check:before {
-  content: "\e934";
+    content: "\e934";
 }
-
 .ql-icon-cross2:before {
-  content: "\e935";
+    content: "\e935";
 }
-
 .ql-icon-plus:before {
-  content: "\e936";
+    content: "\e936";
 }
-
 .ql-icon-minus:before {
-  content: "\e937";
+    content: "\e937";
 }
-
 .ql-icon-chevron-up:before {
-  content: "\e939";
+    content: "\e939";
 }
-
 .ql-icon-chevron-down:before {
-  content: "\e93a";
+    content: "\e93a";
 }
-
 .ql-icon-chevron-left:before {
-  content: "\e93b";
+    content: "\e93b";
 }
-
 .ql-icon-chevron-right:before {
-  content: "\e93c";
+    content: "\e93c";
 }
-
 .ql-icon-arrow-left:before {
-  content: "\e943";
+    content: "\e943";
 }
-
 .ql-icon-arrow-right:before {
-  content: "\e944";
+    content: "\e944";
 }
-
 .ql-icon-checkmark-circle:before {
-  content: "\e959";
+    content: "\e959";
 }
-
 .ql-icon-cross-circle:before {
-  content: "\e95a";
+    content: "\e95a";
 }
-
 .ql-icon-text-size:before {
-  content: "\e9a2";
+    content: "\e9a2";
 }
