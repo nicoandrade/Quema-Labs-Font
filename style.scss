@@ -26,6 +26,12 @@ $ql-font-path: "assets/css/vendor/quemalabs-font/fonts" !default;
     -moz-osx-font-smoothing: grayscale;
 }
 
+.ql-icon-icons8-print:before {
+    content: "\e90c";
+}
+.ql-icon-icons8-paycheque:before {
+    content: "\e90b";
+}
 .ql-icon-settings:before {
     content: "\e901";
 }
