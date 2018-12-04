@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'quemalabs-font';
   src:
-    url('fonts/quemalabs-font.ttf?uq0ra6') format('truetype'),
-    url('fonts/quemalabs-font.woff?uq0ra6') format('woff'),
-    url('fonts/quemalabs-font.svg?uq0ra6#quemalabs-font') format('svg');
+    url('fonts/quemalabs-font.ttf?6z1brd') format('truetype'),
+    url('fonts/quemalabs-font.woff?6z1brd') format('woff'),
+    url('fonts/quemalabs-font.svg?6z1brd#quemalabs-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -194,11 +194,32 @@
 .ql-icon-arrow-right:before {
   content: "\e944";
 }
+.ql-icon-warning:before {
+  content: "\e955";
+}
+.ql-icon-notification-circle:before {
+  content: "\e956";
+}
+.ql-icon-question-circle:before {
+  content: "\e957";
+}
 .ql-icon-checkmark-circle:before {
   content: "\e959";
 }
 .ql-icon-cross-circle:before {
   content: "\e95a";
+}
+.ql-icon-chevron-up-circle:before {
+  content: "\e962";
+}
+.ql-icon-chevron-down-circle:before {
+  content: "\e963";
+}
+.ql-icon-chevron-left-circle:before {
+  content: "\e964";
+}
+.ql-icon-chevron-right-circle:before {
+  content: "\e965";
 }
 .ql-icon-text-size:before {
   content: "\e9a2";
