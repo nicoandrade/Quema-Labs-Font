@@ -2,9 +2,9 @@ $ql-font-path: "assets/css/vendor/quemalabs-font/fonts" !default;
 
 @font-face {
     font-family: "quemalabs-font";
-    src: url("#{$ql-font-path}/quemalabs-font.ttf?ofe7uz") format("truetype"),
-        url("#{$ql-font-path}/quemalabs-font.woff?ofe7uz") format("woff"),
-        url("#{$ql-font-path}/quemalabs-font.svg?ofe7uz#quemalabs-font")
+    src: url("#{$ql-font-path}/quemalabs-font.ttf?laicle") format("truetype"),
+        url("#{$ql-font-path}/quemalabs-font.woff?laicle") format("woff"),
+        url("#{$ql-font-path}/quemalabs-font.svg?laicle#quemalabs-font")
             format("svg");
     font-weight: normal;
     font-style: normal;
@@ -25,7 +25,9 @@ $ql-font-path: "assets/css/vendor/quemalabs-font/fonts" !default;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.ql-icon-overview_pages_1:before {
+    content: "\e917";
+}
 .ql-icon-help:before {
     content: "\e915";
 }
