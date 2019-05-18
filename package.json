@@ -1,6 +1,6 @@
 {
     "name": "quemalabs-font",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Icon font for Quema Labs",
     "main": "index.js",
     "scripts": {

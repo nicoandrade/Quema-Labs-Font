@@ -2,9 +2,9 @@ $ql-font-path: "assets/css/vendor/quemalabs-font/fonts" !default;
 
 @font-face {
     font-family: "quemalabs-font";
-    src: url("#{$ql-font-path}/quemalabs-font.ttf?usisku") format("truetype"),
-        url("#{$ql-font-path}/quemalabs-font.woff?usisku") format("woff"),
-        url("#{$ql-font-path}/quemalabs-font.svg?usisku#quemalabs-font")
+    src: url("#{$ql-font-path}/quemalabs-font.ttf?8g6bnm") format("truetype"),
+        url("#{$ql-font-path}/quemalabs-font.woff?8g6bnm") format("woff"),
+        url("#{$ql-font-path}/quemalabs-font.svg?8g6bnm#quemalabs-font")
             format("svg");
     font-weight: normal;
     font-style: normal;
@@ -26,6 +26,9 @@ $ql-font-path: "assets/css/vendor/quemalabs-font/fonts" !default;
     -moz-osx-font-smoothing: grayscale;
 }
 
+.ql-icon-discount_56:before {
+    content: "\e91b";
+}
 .ql-icon-beer_pump:before {
     content: "\e91a";
 }
